@@ -1,0 +1,11 @@
+{
+  "name": "motion-creator",
+  "description": "Studio-grade motion graphics built in code with Hebrew RTL text, exported to MP4/GIF — 10 ready styles or your own",
+  "version": "1.0.0",
+  "author": {
+    "name": "Adir Solomon",
+    "email": "goodadir@gmail.com"
+  },
+  "repository": "https://github.com/adirso/skills",
+  "keywords": ["motion-graphics", "animation", "video", "hebrew", "rtl", "reels"]
+}

@@ -10,6 +10,11 @@
       "name": "taskforge",
       "source": "./plugins/taskforge",
       "description": "Read, create, update, and comment on Task-Forge tasks, projects, phases, and sprints via its REST API"
+    },
+    {
+      "name": "motion-creator",
+      "source": "./plugins/motion-creator",
+      "description": "Studio-grade motion graphics built in code with Hebrew RTL text, exported to MP4/GIF — 10 ready styles or your own"
     }
   ]
 }

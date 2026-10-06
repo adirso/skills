@@ -5,14 +5,14 @@ A [Claude Code](https://code.claude.com) plugin marketplace for the skills I pub
 ## Install
 
 ```bash
-claude plugin marketplace add adirso/skiils
+claude plugin marketplace add adirso/skills
 claude plugin install <plugin-name>@adirso-skills
 ```
 
 Or inside a Claude Code session:
 
 ```
-/plugin marketplace add adirso/skiils
+/plugin marketplace add adirso/skills
 /plugin install <plugin-name>@adirso-skills
 ```
 
@@ -21,6 +21,7 @@ Or inside a Claude Code session:
 | Plugin | Description |
 |---|---|
 | `taskforge` | Work with Task-Forge tasks, projects, phases, and sprints via its REST API |
+| `motion-creator` | Studio-grade motion graphics in code with Hebrew RTL text, exported to MP4/GIF |
 
 ## Adding a skill
 
