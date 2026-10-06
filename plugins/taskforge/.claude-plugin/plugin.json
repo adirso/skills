@@ -1,0 +1,11 @@
+{
+  "name": "taskforge",
+  "description": "Read, create, update, and comment on Task-Forge tasks, projects, phases, and sprints via its REST API",
+  "version": "0.1.0",
+  "author": {
+    "name": "Adir Solomon",
+    "email": "goodadir@gmail.com"
+  },
+  "repository": "https://github.com/adirso/skiils",
+  "keywords": ["taskforge", "project-management", "tasks"]
+}

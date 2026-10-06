@@ -1,0 +1,15 @@
+{
+  "name": "adirso-skills",
+  "description": "Claude Code skills published by Adir Solomon",
+  "owner": {
+    "name": "Adir Solomon",
+    "email": "goodadir@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "taskforge",
+      "source": "./plugins/taskforge",
+      "description": "Read, create, update, and comment on Task-Forge tasks, projects, phases, and sprints via its REST API"
+    }
+  ]
+}
