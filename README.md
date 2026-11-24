@@ -22,6 +22,7 @@ Or inside a Claude Code session:
 |---|---|
 | `taskforge` | Work with Task-Forge tasks, projects, phases, and sprints via its REST API |
 | `motion-creator` | Studio-grade motion graphics in code with Hebrew RTL text, exported to MP4/GIF |
+| `wedding-album-curator` | Local-first app that helps couples pick ~500 album photos from thousands (faces, quality, similar shots, explainable selection, export; EN/HE). Bundles the app; run its `bootstrap.sh` to install. |
 
 ## Adding a skill
 

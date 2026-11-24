@@ -1,0 +1,11 @@
+{
+  "name": "wedding-album-curator",
+  "description": "Local-first app that helps couples pick ~500 album photos from thousands of wedding photos: face grouping, quality checks, similar shots, explainable album selection, export. Photos never leave the computer by default.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Adir Solomon",
+    "email": "goodadir@gmail.com"
+  },
+  "repository": "https://github.com/adirso/skills",
+  "keywords": ["wedding", "photos", "album", "face-grouping", "local-ai", "hebrew", "rtl"]
+}

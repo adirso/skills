@@ -15,6 +15,11 @@
       "name": "motion-creator",
       "source": "./plugins/motion-creator",
       "description": "Studio-grade motion graphics built in code with Hebrew RTL text, exported to MP4/GIF — 10 ready styles or your own"
+    },
+    {
+      "name": "wedding-album-curator",
+      "source": "./plugins/wedding-album-curator",
+      "description": "Local-first wedding album curation app: pick ~500 album photos from thousands with face grouping, quality checks, similar shots and explainable selection (English/Hebrew)"
     }
   ]
 }

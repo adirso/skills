@@ -1,0 +1,39 @@
+[project]
+name = "wedding-album-curator"
+version = "0.1.0"
+description = "Local-first wedding album curation backend"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "pydantic>=2.7",
+  "pillow>=10.4",
+  "pillow-heif>=0.18",
+  "opencv-python-headless>=4.10",
+  "numpy>=1.26,<3",
+  "scikit-learn>=1.5",
+  "httpx>=0.27",
+  "platformdirs>=4.2",
+  "psutil>=5.9",
+  "keyring>=25",
+]
+
+[project.optional-dependencies]
+ml = ["torch>=2.3", "open_clip_torch>=2.26", "mediapipe>=0.10.14"]
+cloud = ["anthropic>=0.40"]
+dev = ["pytest>=8", "pytest-asyncio>=0.23"]
+
+[project.scripts]
+wac = "wac.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["wac"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+asyncio_default_fixture_loop_scope = "function"

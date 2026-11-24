@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Run the Wedding Album Curator CLI (doctor, hardware, models, benchmark, sample-dataset, serve).
+source "$(dirname "$0")/_common.sh"
+[ -x "$WAC_BIN" ] || fail "Not installed yet. Run scripts/install.sh first."
+exec "$WAC_BIN" "$@"
